@@ -1,0 +1,118 @@
+/* name */
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #E6EFF6;
+  font-size: 16px;
+}
+
+h1 {
+  color: #2BB3B1;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+  color: white;
+  opacity: 0.8;
+}
+
+h3 {
+  font-weight: 700;
+  color: white;
+  opacity: 0.8;
+}
+
+p {
+  color: #98a6bd;
+  color: hsl(218, 22%, 67%);
+}
+
+/* class selectors */
+
+.green {
+  color:  #c0df34;
+  color: hsl(71, 73%, 54%);
+}
+
+.light {
+ color: white;
+ opacity: 0.8;
+}
+
+.container {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+  border-radius: 3%;
+  overflow: hidden;
+  width: 60%;
+  margin: 7% 20%;
+}
+
+.one {
+  background-color: #FFFFFF;
+  grid-column: span 2;
+  margin: 0;
+  padding: 2rem 3rem 2rem 2rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  background-color:  #c0df34;
+  background-color: hsl(71, 73%, 54%);
+  width: 90%;
+  border: solid 1px #c0df34;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+  padding-bottom: 0;
+}
+
+.btn:hover {
+  background-color: #c0df34;
+  border: solid 1px #c0df34;
+  color: grey;
+  opacity: 0.8;
+}
+
+.two {
+  background-color: #2BB3B1;
+  padding: 3rem;
+  margin: 0;
+}
+
+.emph {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+}
+
+.adj {
+  font-size: 8px;
+}
+
+.three {
+  background-color: #4ABEBD;
+  padding: 3rem;
+  margin: 0;
+}
+
+/* media query breakpoints */
+
+@media (max-width: 770px) {
+
+  .container {
+    display: grid;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    padding: 0;
+    margin: auto;
+    grid-template-columns: 1fr;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .one {
+    grid-column: span 1;
+  }
+
+}
